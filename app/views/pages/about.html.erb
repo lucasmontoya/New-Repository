@@ -1,16 +1,21 @@
-<h1>About Me</h1>
+<div class="app-card-container">
+    <div class="card">
+        <h1>About Me</h1>
 
-<hr>
-
-<div class="row">
-    <div class="col-md-5">
-        <%= image_tag "profile.jpg", width: 300, alt: "Profile Image" %>
-    </div>
-    <div class="col-md-7">
-        <p>
-            Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
-        </p>
-        <%= link_to "Contact", contact_path, class: "btn btn-lg btn-secondary" %>
+        <hr>
+        
+        <div class="row">
+            <div class="col-md-5">
+                <%= image_tag "profile.jpg", width: 300, alt: "Profile Image", class: 'profile-img' %>
+            </div>
+            <div class="col-md-7">
+                <p>
+                    Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                </p>
+                <p>
+                    Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
-
