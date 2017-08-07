@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Pontano Sans', sans-serif;
   color: #555;
 }
 
@@ -29,7 +29,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -93,6 +93,7 @@ h6, .h6 {
 
 .blog-header {
   padding-bottom: 1.25rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
 }
@@ -195,4 +196,9 @@ h6, .h6 {
 
 .comment-title {
   font-weight: 700;
+}
+
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
 }
