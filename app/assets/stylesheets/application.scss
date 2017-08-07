@@ -165,7 +165,7 @@ body {
 /*
  * Custom Styles
  */
- 
+
 .card-block {
   color: black;
   text-align: left;
@@ -175,18 +175,19 @@ body {
   color: black;
 }
 
-.register-text{
+.register-text {
   text-align: right;
 }
 
 .login > .card {
-  width: 30rem;
+  width: 22rem;
   margin: 0 auto;
   float: none;
 }
 
 .app-nav span {
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #background {
@@ -213,18 +214,17 @@ body {
   margin: 20px;
 }
 
-.tech-news a {
-  color: blue;
+.tech-news > .card {
+  padding: 30px;
 }
 
-.tech-news > .card {
-  padding: 15px;
+.tech-news a {
+  color: green;
 }
 
 .app-card-container {
   color: black;
   text-align: left;
-  link-color: black;
 }
 
 .app-card-container > .card {
@@ -236,10 +236,15 @@ body {
 }
 
 .app-card-container a {
-  color: black;
+  color: blue;
 }
 
 .card-block {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
