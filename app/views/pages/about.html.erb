@@ -5,8 +5,9 @@
         <hr>
         
         <div class="row">
-            <div class="col-md-5">
-                <%= image_tag "profile.jpg", width: 300, alt: "Profile Image", class: 'profile-img' %>
+            <div class="col-md-3">
+                <%= image_tag "profile.jpg", width: 200, alt: "Profile Image", class: 'profile-img' %>
+                
                 <div class="skills">
                     <% @skills.each do |skill| %>
                         <div class="skill">
@@ -24,7 +25,10 @@
                     <% end %>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-9">
+                <p>
+                    Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                </p>
                 <p>
                     Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
                 </p>
@@ -32,44 +36,66 @@
                     Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
                 </p>
                 
-                <p>
-                    <button
-                        class="btn btn-primary"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#jobHistory"
-                        aria-expanded="false"
-                        aria-controller="jobHistory"
-                    >
-                        Job History
-                    </button>
-                    
-                    <button
-                        class="btn btn-primary"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#education"
-                        aria-expanded="false"
-                        aria-controller="education"
-                    >
-                        Education
-                    </button>
-                </p>
+                <div class="about-buttons">
+                    <p>
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#jobHistory"
+                            aria-expanded="false"
+                            aria-controller="jobHistory"
+                        >
+                            Job History
+                        </button>
+                        
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#education"
+                            aria-expanded="false"
+                            aria-controller="education"
+                        >
+                            Education
+                        </button>
+                        
+                        <button
+                            class="btn btn-info"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#socialmedia"
+                            aria-expanded="false"
+                            aria-controller="education"
+                        >
+                            Social Media
+                        </button>
+                    </p>
+                </div>
+                 
                 <p>
                     <div class="collapse" id="jobHistory">
                         <div class="card card-block">
-                            Job 1
-                        </div>
-                        <div class="card card-block">
-                            Job 2
+                            No job history.
                         </div>
                     </div>
                     <div class="collapse" id="education">
                         <div class="card card-block">
-                            school 1
+                            Hillcrest Jr. Highschool
                         </div>
                         <div class="card card-block">
-                            school 2
+                            Murray Highschool
+                        </div>
+                    </div>
+                    <div class="collapse" id="socialmedia">
+                        <div class="card card-block">
+                            <a href="http://instagram.com/lucasrnontoya">Instagram</a>
+                        </div>
+                        <div class="card card-block">
+                            <a href="http://facebook.com">Facebook</a>
+                        </div>
+                        <div class="card card-block">
+                            <a href="http://twitter.com">Twitter</a>
                         </div>
                     </div>
                 </p>

@@ -31,7 +31,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 body {
   color: #fff;
@@ -45,7 +45,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -243,6 +243,14 @@ h6, .h6 {
 
 .profile-img {
   border: 1px solid grey;
+}
+
+.about-buttons {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  margin-right: 5px;
 }
 
 .app-card-container a {
